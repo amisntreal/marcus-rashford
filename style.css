@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+body {
+    background-image: url(bg.png);
+    background-repeat: repeat-x;
+}  
+
+.leftnav {
+  display: flex;
+  background-color: #ffffff;
+  margin-right: 0px;
+  margin: 0;
+  padding: 0;
+  height: 661px;
+  width: 82px;
+}
+.leftnav img {
+    width: 50px;
+}
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: flex;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav p {
+    float: right;
+    display: flex;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav img {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    width: 50px;
+    z-index: 1;
+  }
+  .topnavbar img {
+    float: right;
+    width: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav p:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.player-name {
+  position: relative;
+    font-size: 35pt;
+    margin-left: 100px;
+    padding: 0px;
+    bottom: 20px;
+  }
+  .player-name content {
+    width: 80%;
+  }
+  .player-desc {
+    display: flex;
+    position: relative;
+    font-size: 12pt;
+    margin-left: 0px;
+    padding: 0px;
+    bottom: 15px;
+  }
+
+  .rashford {
+    color: #e30000;
+  }
+
+  .player {
+    float: right;
+  }
+
+  .player img {
+    box-sizing: border-box;
+    position: relative;
+    left: 550px;
+    bottom: 50px;
+    float: right;
+    width: 400px;
+  }
+
+  .description {
+    text-decoration: none;
+    letter-spacing: 1px;
+    width: 350px;
+    color: #ffffff;
+    position: absolute;
+    font-size: 10pt;
+    bottom: 0px;
+    top: 355px;
+    margin-left: 130px;
+    text-align: left;
+    flex-direction: row;
+  }
+  
+  .description a {
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer {
+    word-spacing: 3px;
+    position: absolute;
+    margin-top: 569px;
+    padding: 6px 765px;
+    width: 0px;
+    height: 92px;
+    background-color: #3e3e3e;
+  }
+
+  .footdesc {
+    text-indent: 15px;
+    display: flex;
+    text-decoration: none;
+    width: 850px;
+    color: #ffffff;
+    position: absolute;
+    font-size: 12pt;
+    bottom: 0px;
+    top: 660px;
+    margin-left: 130px;
+    text-align: left;
+    flex-direction: row;
+  }
+
+  .footdesc a h4 {
+    letter-spacing: 2px;
+  }
+
+  .footdesc p {
+    
+  }
